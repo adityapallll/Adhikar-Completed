@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/logo-removebg-preview.png" />
+  <!-- ICON -->
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <!-- Custum CSS -->
+  <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+
+<body>
+
+  <!-- start: SIDEBAR -->
+
+  <section id="sidebar">
+
+    <a href="#" class="brand">
+      <!-- <i class="ph-list-bullets"></i> -->
+      <i class="ph-arrow-counter-clockwise"></i>
+    </a>
+
+    <ul class="sidebar__menu">
+
+      <li>
+        <a href="index.html" target="_blank"><i class="ph-house-fill"></i></a>
+        <!-- <ul class="sidebar__submenu">
+					<li class="title">Dashboard</li>
+					<li><a href="index.html" target="_blank">Home</a></li>
+				</ul> -->
+      </li>
+
+      <li>
+        <a href="#" class="active"><i class="ph-fingerprint"></i></a>
+        <!-- <ul class="sidebar__submenu">
+					<li class="title">Dashboard</li>
+					<li><a href="#">Voting Panel</a></li>
+				</ul> -->
+      </li>
+
+      <li>
+        <a href="dashboard - results.html"><i class="ph-chart-bar"></i></a>
+        <!-- <ul class="sidebar__submenu">
+					<li class="title">Dashboard</li>
+					<li><a href="#" ">Results</a></li>
+				</ul> -->
+      </li>
+
+      <li>
+        <a href="#"><i class="ph-users-four"></i></i></a>
+        <!-- <ul class="sidebar__submenu">
+					<li class="title">Team</li>
+					<li><a href="#">Team page</a></li>
+				</ul> -->
+      </li>
+
+      <li>
+        <a href="#"><i class="ph-info"></i></a>
+        <!-- <ul class="sidebar__submenu">
+					<li class="title">Info.</li>
+					<li><a href="#">About Us</a></li>
+				</ul> -->
+      </li>
+
+      <li>
+        <a href="signin.html" class="logout"><i class="ph-sign-out-fill"></i></a>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <!-- start: SIDEBAR OVERLAY -->
+
+  <div class="sidebar-overlay"></div>
+
+  <!-- end: SIDEBAR OVERLAY -->
+
+  <!-- end: SIDEBAR -->
+
+  <!-- start: SIDEBAR MOBILE -->
+
+  <section id="sidebar-mobile">
+    <a href="#" class="brand">
+      Adhikar
+    </a>
+    <!-- <i class="ph-dots-three-outline-vertical"></i> -->
+    <i class="ph-squares-four-fill toggle-sidebar"></i>
+
+  </section>
+
+  <!-- end: SIDEBAR MOBILE -->
+
+  <!-- start: MAIN -->
+
+  <section id="main">
+
+    <!-- start: MAIN TOP -->
+    <div class="main__top">
+
+      <div class="main__top__title">
+        <h3>Dashboard</h3>
+        <ul class="breadcrumbs">
+          <!-- <li><a href="#">Home</a></li> -->
+          <!-- <li class="divider">/</li> -->
+          <li><a href="#" class="active">Results Panel</a></li>
+        </ul>
+      </div>
+
+      <ul class="main__top__menu">
+
+        <li class="search">
+
+          <a href="#">
+            <i class="ph-magnifying-glass"></i>
+          </a>
+
+          <div class="main__dropdown">
+
+            <form action="#">
+              <input type="text" name="" placeholder="Search">
+            </form>
+
+            <span>Recent Search</span>
+
+            <ul class="recent-search">
+
+              <li>
+                <a href="#">
+                  <h5>No Recent Search</h5>
+                  <p>No Recent Search Results</p>
+                </a>
+              </li>
+
+              <!-- <li>
+								<a href="#">
+									<h5>Keyword</h5>
+									<p>Lorem ipsum dolor sit amet consectetur...</p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<h5>Keyword</h5>
+									<p>Lorem ipsum dolor sit amet consectetur...</p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<h5>Keyword</h5>
+									<p>Lorem ipsum dolor sit amet consectetur...</p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<h5>Keyword</h5>
+									<p>Lorem ipsum dolor sit amet consectetur...</p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<h5>Keyword</h5>
+									<p>Lorem ipsum dolor sit amet consectetur...</p>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<h5>Keyword</h5>
+									<p>Lorem ipsum dolor sit amet consectetur...</p>
+								</a>
+							</li> -->
+
+            </ul>
+
+          </div>
+
+        </li>
+
+        <li class="notification">
+
+          <a href="#">
+            <i class="ph-bell"></i>
+          </a>
+
+          <div class="main__dropdown">
+
+            <div class="notification__top">
+              <h4>Notifications</h4>
+              <span>1</span>
+            </div>
+
+            <ul class="notification__item">
+
+              <li>
+                <a href="#">
+                  <div class="left">
+                    <h5>Voting</h5>
+                    <p>Voting is Starting Soon</p>
+                  </div>
+                  <span>1 hours</span>
+                </a>
+              </li>
+
+              <!-- <li>
+								<a href="#">
+									<div class="left">
+										<h5>Notification title</h5>
+										<p>Lorem ipsum dolor sit amet...</p>
+									</div>
+									<span>3 hours</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<div class="left">
+										<h5>Notification title</h5>
+										<p>Lorem ipsum dolor sit amet...</p>
+									</div>
+									<span>3 hours</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<div class="left">
+										<h5>Notification title</h5>
+										<p>Lorem ipsum dolor sit amet...</p>
+									</div>
+									<span>3 hours</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<div class="left">
+										<h5>Notification title</h5>
+										<p>Lorem ipsum dolor sit amet...</p>
+									</div>
+									<span>3 hours</span>
+								</a>
+							</li> -->
+
+            </ul>
+
+          </div>
+
+        </li>
+
+        <li class="profile">
+
+          <a href="#">
+            <img src="./assets/voter.png" alt="">
+          </a>
+
+          <div class="main__dropdown">
+            <div class="profile__top">
+              <img src="./assets/voter.png" alt="">
+              <div class="name">
+                <h5 id="loc_info4">Name</h5>
+                <p id="loc_info2">Aadhaar No.</p>
+              </div>
+            </div>
+
+            <ul class="profile__menu">
+              <li><a href="signin.html"><i class="ph-sign-out-fill"></i> Log-Out</a></li>
+            </ul>
+
+          </div>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <!-- end: MAIN TOP -->
+
+    <!-- start: MAIN BODY -->
+    <div class="main__body">
+
+      <ul class="main__body__box-info">
+
+        <li>
+          <i class="ph-timer"></i>
+          <h5 id="timer">00 H : 00 M : 05 S</h5>
+          <p>Voting Starts In</p>
+        </li>
+
+        <li>
+          <i class="ph-users-three"></i>
+          <h5 id="loc_info3">4</h5>
+          <p>Parties </p>
+        </li>
+
+        <li>
+          <i class="ph-map-pin-line"></i>
+          <h5 id="loc_info">Location</h5>
+          <p>Location based on Aadhaar</p>
+        </li>
+
+      </ul>
+
+      <div class="main__body__data">
+
+        <div class="voter">
+
+          <div class="voter__top">
+            <h4>Voting Panel</h4>
+            <div class="voter__menu">
+              <i class="ph-dots-three-outline-vertical-fill"></i>
+              <ul class="menu">
+                <li>
+                  <a href="#">Leave</a>
+                </li>
+                <li>
+                  <a href="#">Remind Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="voter__user">
+
+            <li>
+              <img src="./assets/party.png" alt="">
+              <div class="profile">
+                <h5>Party-1</h5>
+                <p id="cand1">Candidate Name</p>
+              </div>
+              <span id="vote1">Vote</span>
+            </li>
+
+            <li>
+              <img src="./assets/party.png" alt="">
+              <div class="profile">
+                <h5>Party-2</h5>
+                <p id="cand">Candidate Name</p>
+              </div>
+              <span id="vote2">Vote</span>
+            </li>
+
+            <li>
+              <img src="./assets/party.png" alt="">
+              <div class="profile">
+                <h5>Party-3</h5>
+                <p id="cand3">Candidate Name</p>
+              </div>
+              <span id="vote3">Vote</span>
+            </li>
+
+            <li>
+              <img src="./assets/party.png" alt="">
+              <div class="profile">
+                <h5>Party-4</h5>
+                <p id="cand4">Candidate Name</p>
+              </div>
+              <span id="vote4">Vote</span>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- <div class="voting-summary">
+					
+					<div class="voting-summary__top">
+						<h4>Voting Results</h4>
+						<div class="voting-summary__menu">
+							<i class="ph-dots-three-outline-vertical-fill"></i>
+							<ul class="menu">
+								<li>
+									<a href="#">Refresh</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<ul class="voting-summary__info">
+
+						<li>
+							<p>Part-1</p>
+							<h5>7659</h5>
+						</li>
+
+						<li>
+							<p>Party-2</p>
+							<h5>6514</h5>
+						</li>
+
+						<li>
+							<p>Party-3</p>
+							<h5>5164</h5>
+						</li>
+
+						<li>
+							<p>Party-4</p>
+							<h5>4465</h5>
+						</li>
+
+					</ul>
+
+					<div id="chart"></div>
+
+				</div> -->
+
+      </div>
+
+    </div>
+    <!-- end: MAIN BODY -->
+
+  </section>
+  <!-- end: MAIN -->
+
+  <!-- Custom Javascript file -->
+
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./js/dashboard.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <!-- <script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script> -->
+
+
+  <script type="text/javascript" src="js/clist.js"></script>
+
+  <!-- Disable Right click Javascript file -->
+  <script>
+    $(document).ready(function () {
+      $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+      })
+      $('body').on("contextmenu", function (e) {
+        return false
+      })
+    })
+
+    // DISABLE BACK BUTTON 
+
+    function preventBack() {
+      window.history.forward();
+    }
+    setTimeout("preventBack()", 0);
+    window.onload + function () { null };
+
+    // window.onbeforeunload = function () {
+    //   return "You won't be able to come back to this page again."
+    // };
+
+    // Timer 
+    
+    // var timer;
+    // var ele = document.getElementById('timer');
+
+    // (function () {
+    //   var sec = 5;
+    //   timer = setInterval(() => {
+    //     ele.innerHTML = '00  : 00  : 0 ' + sec;
+    //     sec--;
+    //   }, 1000) // each 1 second
+    // })()
+	
+  </script>
+
+  <!-- Voting  -->
+  <script>
+
+    //check cookie
+    function readCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    }
+
+    var aadhaar_list = {
+      "723456789123": "Meerut",
+      "738253790005": "Bhandara"
+    }
+
+    var aadhaar = readCookie('aadhaar');
+
+    console.log(aadhaar);
+    var address = aadhaar_list[aadhaar];
+    console.log(address);
+    $('#loc_info').text(' ' + address)
+    $('#loc_info2').text(' ' + aadhaar)
+
+    var names_list = {
+      "723456789123": "Aakarsh",
+      "738253790005": "Ashish"
+    }
+
+    var names = readCookie('aadhaar');
+
+    console.log(names);
+    var name = names_list[names];
+    console.log(name);
+    $('#loc_info4').text(' ' + name)
+
+    function disable() {
+      $('#vote1').addClass("disabled");
+      $('#vote2').addClass("disabled");
+      $('#vote3').addClass("disabled");
+      $('#vote4').addClass("disabled");
+
+      //logout
+      // document.cookie = "show=John Doe; expires=Thu, 18 Dec 2022 12:00:00 UTC";
+      // document.cookie = "aadhaar=John Doe; expires=Thu, 18 Dec 2022 12:00:00 UTC";
+      window.location = './dashboard - results.html';
+
+
+    }
+
+    
+    var counter = 10;
+
+		setInterval( function(){
+			counter--;
+
+			if( counter >= 0 ){
+				id = document.getElementById("timer");
+				id.innerHTML = "00 : 00 : 0" + counter;
+      $('#vote1').addClass("disabled");
+      $('#vote2').addClass("disabled");
+      $('#vote3').addClass("disabled");
+      $('#vote4').addClass("disabled");
+			}
+
+			if( counter === 0 ){
+				id.innerHTML = "You can vote now!";
+      $('#vote1').removeClass("disabled");
+      $('#vote3').removeClass("disabled");
+      $('#vote2').removeClass("disabled");
+      $('#vote4').removeClass("disabled");
+			}
+		}, 1000);
+
+    $('#vote1').click(function () {
+      alert('Sucess: Your vote submited to Party-1');
+      disable();
+      $('#loc_info3').text('Vote submited to Party-1')
+      contractInstance.voteForCandidate('Party-1', { from: web3.eth.accounts[0] }, function () {
+      });
+    })
+
+
+    $('#vote2').click(function () {
+      alert('Sucess: Your vote submited to Party-2');
+      disable();
+      $('#loc_info3').text('Vote submited to Party-2')
+      contractInstance.voteForCandidate('Party-2', { from: web3.eth.accounts[0] }, function () {
+      });
+    })
+
+
+    $('#vote3').click(function () {
+      alert('Sucess: Your vote submited to Party-3');
+      disable();
+      $('#loc_info3').text('Vote submited to Party-3')
+      contractInstance.voteForCandidate('Party-3', { from: web3.eth.accounts[0] }, function () {
+      });
+    })
+
+
+    $('#vote4').click(function () {
+      alert('Sucess: Your vote submited to Party-4');
+      disable();
+      $('#loc_info3').text('Vote submited to Party-4')
+      contractInstance.voteForCandidate('Party-4', { from: web3.eth.accounts[0] }, function () {
+      });
+    })
+
+  </script>
+
+</body>
+
+</html>
